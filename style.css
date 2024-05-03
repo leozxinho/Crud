@@ -1,0 +1,35 @@
+body{
+    text-decoration: none;
+}
+
+.user-input {
+    padding-left: 30px; /* Espaçamento à esquerda para o ícone */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.user-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.input-wrapper i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.btn {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 12px 15px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+}
